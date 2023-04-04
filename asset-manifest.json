@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shuddle/static/css/main.9afffe71.css",
-    "main.js": "/shuddle/static/js/main.5ad00f65.js",
+    "main.js": "/shuddle/static/js/main.f8b83bd8.js",
     "static/js/787.fc535251.chunk.js": "/shuddle/static/js/787.fc535251.chunk.js",
     "static/media/hero-world.svg": "/shuddle/static/media/hero-world.c63bdf8153b2f5228e9a57f8f289046d.svg",
     "static/media/hero-visit.svg": "/shuddle/static/media/hero-visit.4cdba9c0b3f164b98333bbb8bd1d2c63.svg",
@@ -15,11 +15,11 @@
     "static/media/shuddle-world__light.svg": "/shuddle/static/media/shuddle-world__light.5c6693556de80738e375c637e528f7da.svg",
     "index.html": "/shuddle/index.html",
     "main.9afffe71.css.map": "/shuddle/static/css/main.9afffe71.css.map",
-    "main.5ad00f65.js.map": "/shuddle/static/js/main.5ad00f65.js.map",
+    "main.f8b83bd8.js.map": "/shuddle/static/js/main.f8b83bd8.js.map",
     "787.fc535251.chunk.js.map": "/shuddle/static/js/787.fc535251.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9afffe71.css",
-    "static/js/main.5ad00f65.js"
+    "static/js/main.f8b83bd8.js"
   ]
 }

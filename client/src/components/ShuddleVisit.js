@@ -54,9 +54,7 @@ const ShuddleVisit = () => {
 					className='pt-[120px] flex justify-center'>
 					<div className='container flex justify-center'>
 						<div className='flex flex-col gap-2 items-center'>
-							<div
-								id='section-header'
-								className='inline-block flex flex-col gap-2'>
+							<div id='section-header' className=' flex flex-col gap-2'>
 								<Typography
 									variant='heading-2'
 									className='text-marina-600 px-2'>
@@ -77,43 +75,48 @@ const ShuddleVisit = () => {
 									journey with Shuddle!
 								</Typography>
 							</div>
-							<div id='carousel' className='flex gap-4 py-4'>
+							<div id='carousel' className='flex gap-4 py-4 flex-wrap'>
 								<Card
 									size='md'
 									title='Intergalactic Cruises'
-									description='Set sail through the stars and explore the beauty of the universe!'
+									description='To infinity and beyond - discover the wonders of the cosmos!'
 									imgSrc={CardMedia6}
 									variant='surface'
 								/>
 								<Card
 									size='md'
-									title='Romulan Empire'
-									description=''
+									title='Extraterrestrial Stays'
+									description='Discover unique vacations on outer-galaxy planets in style!'
 									imgSrc={CardMedia1}
+									variant='surface'
 								/>
 								<Card
 									size='md'
-									title='Krypton System'
-									description=''
+									title='Zero-Gravity Adventures'
+									description='Experience the thrill of a lifetime with zero-gravity adventures!'
 									imgSrc={CardMedia2}
+									variant='surface'
 								/>
 								<Card
 									size='md'
-									title='Arrakis System'
-									description=''
+									title='Uncharted Lunar Landings'
+									description='Be the first to explore new Moons and create unforgettable memories!'
 									imgSrc={CardMedia3}
+									variant='surface'
 								/>
 								<Card
 									size='md'
-									title='Omicron Persei 8'
-									description=''
+									title='Exciting Spacewalk Tours'
+									description='Suit up and experience the cosmos firsthand with our spacewalk tours!'
 									imgSrc={CardMedia4}
+									variant='surface'
 								/>
 								<Card
 									size='md'
-									title='Terran System'
-									description=''
+									title='Galactic Culinary Experiences'
+									description='Savor the flavors of the universe, with our exclusive dining experiences!'
 									imgSrc={CardMedia5}
+									variant='surface'
 								/>
 							</div>
 						</div>
@@ -123,9 +126,7 @@ const ShuddleVisit = () => {
 				<section id='member stories' className='pt-[120px] flex justify-center'>
 					<div className='container flex justify-center'>
 						<div className='flex flex-col gap-2 items-center'>
-							<div
-								id='section-header'
-								className='inline-block flex flex-col gap-2'>
+							<div id='section-header' className=' flex flex-col gap-2'>
 								<Typography
 									variant='heading-2'
 									className='text-marina-600 px-2'>

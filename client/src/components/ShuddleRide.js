@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navbar, NavbarLink } from 'capstone-ds-rn/dist/components/Navbar';
 import heroImg from '../assets/media/ride/hero-ride.png';
 import Typography from 'capstone-ds-rn/dist/components/Typography';
@@ -16,6 +16,9 @@ import CardMedia5 from '../assets/media/ride/CardMedia-5.png';
 import CardMedia6 from '../assets/media/ride/CardMedia.png';
 
 const ShuddleRide = () => {
+	useEffect(() => {
+		document.title = 'Shuddle Ride';
+	}, []);
 	return (
 		<div>
 			<Navbar brand='ride'>
@@ -109,7 +112,7 @@ const ShuddleRide = () => {
 					</div>
 				</section>
 				<Divider brand='ride' />
-				<section id='happy-travels' className='flex justify-center pt-60'>
+				<section id='happy-travels' className='flex justify-center pt-32'>
 					<div className='container overflow-visible py-40'>
 						<Card
 							imgSrc={cardImg7}

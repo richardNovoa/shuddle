@@ -167,7 +167,7 @@ const ShuddleVisit = () => {
 						</div>
 					</div>
 				</section>
-				<section id='happy-travels' className='flex justify-center pt-60'>
+				<section id='happy-travels' className='flex justify-center pt-32'>
 					<div className='container overflow-visible py-40'>
 						<Card
 							imgSrc={cardImg7}

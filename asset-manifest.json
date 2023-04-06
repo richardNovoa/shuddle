@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shuddle/static/css/main.bde81eda.css",
-    "main.js": "/shuddle/static/js/main.16f185ff.js",
+    "main.js": "/shuddle/static/js/main.ca29aa11.js",
     "static/js/787.fc535251.chunk.js": "/shuddle/static/js/787.fc535251.chunk.js",
     "static/media/hero-visit.png": "/shuddle/static/media/hero-visit.b7a5b8c405c17fbb6f7b.png",
     "static/media/hero-world.png": "/shuddle/static/media/hero-world.d5cb074b541c5c06a3bb.png",
@@ -27,11 +27,11 @@
     "static/media/ride-divider.svg": "/shuddle/static/media/ride-divider.689eb9c5bc97d7d83e037964b72feb02.svg",
     "index.html": "/shuddle/index.html",
     "main.bde81eda.css.map": "/shuddle/static/css/main.bde81eda.css.map",
-    "main.16f185ff.js.map": "/shuddle/static/js/main.16f185ff.js.map",
+    "main.ca29aa11.js.map": "/shuddle/static/js/main.ca29aa11.js.map",
     "787.fc535251.chunk.js.map": "/shuddle/static/js/787.fc535251.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bde81eda.css",
-    "static/js/main.16f185ff.js"
+    "static/js/main.ca29aa11.js"
   ]
 }

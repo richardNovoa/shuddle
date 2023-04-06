@@ -12,6 +12,14 @@ import CardMedia2 from '../assets/media/world/CardMedia-2.png';
 import CardMedia3 from '../assets/media/world/CardMedia-3.png';
 import CardMedia4 from '../assets/media/world/CardMedia-4.png';
 import CardMedia5 from '../assets/media/world/CardMedia-5.png';
+
+import CardMedia11 from '../assets/media/world/CardMedia-11.png';
+import CardMedia12 from '../assets/media/world/CardMedia-12.png';
+import CardMedia13 from '../assets/media/world/CardMedia-13.png';
+import CardMedia14 from '../assets/media/world/CardMedia-14.png';
+import CardMedia15 from '../assets/media/world/CardMedia-15.png';
+import CardMedia16 from '../assets/media/world/CardMedia-16.png';
+
 import CardMedia6 from '../assets/media/world/CardMedia.png';
 import cardImg7 from '../assets/media/world/world-1.svg';
 
@@ -123,7 +131,7 @@ const ShuddleWorld = () => {
 								<Typography
 									variant='heading-2'
 									className='text-marina-600 px-2'>
-									Member Stories
+									Earn Parsecs and Travel Further!
 								</Typography>
 								<div
 									id='divider'
@@ -133,51 +141,56 @@ const ShuddleWorld = () => {
 								<Typography
 									variant='heading-3'
 									className='text-white text-center'>
-									We've created a special section dedicated to showcasing the
-									incredible journeys of our members.
-									<br /> Their stories are a testament to the power of
-									curiosity, courage, and human connection.
-									<br /> We hope that their experiences will inspire you to
-									embark on your own journey, <br />
-									and to discover the infinite possibilities that lie ahead.
+									As a Shuddle World Member, you'll earn Parsecs every time you
+									book a trip with us. The more you travel, the more Parsecs
+									you'll accumulate, which can be redeemed for exciting rewards
+									like free upgrades, exclusive experiences, and even
+									<br />
+									interplanetary travel discounts. <br />
+									<br />
+									Check out some of the most popular destinations!
 								</Typography>
 							</div>
 							<div id='carousel' className='flex gap-4 py-4'>
 								<Card
 									size='md'
-									title='Alderan System'
-									description=''
-									imgSrc={CardMedia6}
+									title='Intergalactic Mining Trip'
+									description='Discover precious resources on a thrilling mining expedition!'
+									imgSrc={CardMedia16}
 								/>
 								<Card
 									size='md'
-									title='Romulan Empire'
-									description=''
-									imgSrc={CardMedia1}
+									title='Alien Petting Encounter'
+									description='Get up close and personal with extraterrestrial life!'
+									imgSrc={CardMedia11}
 								/>
+
 								<Card
 									size='md'
-									title='Krypton System'
-									description=''
-									imgSrc={CardMedia2}
+									title='Mars Exploration Tour'
+									description='mbark on a journey to explore the red planet!'
+									imgSrc={CardMedia12}
 								/>
+
 								<Card
 									size='md'
-									title='Arrakis System'
-									description=''
-									imgSrc={CardMedia3}
+									title='Rocket Racing'
+									description='Experience the thrill of high-speed rocket racing!'
+									imgSrc={CardMedia13}
 								/>
+
 								<Card
 									size='md'
-									title='Omicron Persei 8'
-									description=''
-									imgSrc={CardMedia4}
+									title='Free Floating'
+									description='Experience weightlessness in space on our free-floating tour!'
+									imgSrc={CardMedia14}
 								/>
+
 								<Card
 									size='md'
-									title='Terran System'
-									description=''
-									imgSrc={CardMedia5}
+									title='Intergalactic Music Festivals'
+									description='Join the biggest parties across the universe!'
+									imgSrc={CardMedia15}
 								/>
 							</div>
 						</div>

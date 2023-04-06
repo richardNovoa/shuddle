@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shuddle/static/css/main.bde81eda.css",
-    "main.js": "/shuddle/static/js/main.ca29aa11.js",
+    "main.css": "/shuddle/static/css/main.453ea097.css",
+    "main.js": "/shuddle/static/js/main.5ce14fba.js",
     "static/js/787.fc535251.chunk.js": "/shuddle/static/js/787.fc535251.chunk.js",
     "static/media/hero-visit.png": "/shuddle/static/media/hero-visit.b7a5b8c405c17fbb6f7b.png",
     "static/media/hero-world.png": "/shuddle/static/media/hero-world.d5cb074b541c5c06a3bb.png",
@@ -18,7 +18,7 @@
     "static/media/Card__Image-1.png": "/shuddle/static/media/Card__Image-1.cb65b2a50fe812b27b01.png",
     "static/media/Card__Image-2.png": "/shuddle/static/media/Card__Image-2.795b3b90f88b316e9938.png",
     "static/media/Card__Image.png": "/shuddle/static/media/Card__Image.b1b4f8298ed5c947a768.png",
-    "static/media/Card__Image-3.png": "/shuddle/static/media/Card__Image-3.2e2b4d1add1b8a8c2a54.png",
+    "static/media/Card__Image-3.png": "/shuddle/static/media/Card__Image-3.fc726e133eef6dbcf8d7.png",
     "static/media/world-1.svg": "/shuddle/static/media/world-1.3b482fb842b3be689dc5cba7f6d71904.svg",
     "static/media/ipts__light.png": "/shuddle/static/media/ipts__light.a5699c7d895784f9922a.png",
     "static/media/shuddle-visit__light.png": "/shuddle/static/media/shuddle-visit__light.d58951bb49c0063df8c0.png",
@@ -26,12 +26,12 @@
     "static/media/shuddle-world__light.svg": "/shuddle/static/media/shuddle-world__light.5c6693556de80738e375c637e528f7da.svg",
     "static/media/ride-divider.svg": "/shuddle/static/media/ride-divider.689eb9c5bc97d7d83e037964b72feb02.svg",
     "index.html": "/shuddle/index.html",
-    "main.bde81eda.css.map": "/shuddle/static/css/main.bde81eda.css.map",
-    "main.ca29aa11.js.map": "/shuddle/static/js/main.ca29aa11.js.map",
+    "main.453ea097.css.map": "/shuddle/static/css/main.453ea097.css.map",
+    "main.5ce14fba.js.map": "/shuddle/static/js/main.5ce14fba.js.map",
     "787.fc535251.chunk.js.map": "/shuddle/static/js/787.fc535251.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bde81eda.css",
-    "static/js/main.ca29aa11.js"
+    "static/css/main.453ea097.css",
+    "static/js/main.5ce14fba.js"
   ]
 }

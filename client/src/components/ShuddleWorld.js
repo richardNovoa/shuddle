@@ -55,9 +55,7 @@ const ShuddleWorld = () => {
 				<section id='member stories' className='pt-[120px] flex justify-center'>
 					<div className='container flex justify-center'>
 						<div className='flex flex-col gap-2 items-center'>
-							<div
-								id='section-header'
-								className='inline-block flex flex-col gap-2'>
+							<div id='section-header' className=' flex flex-col gap-2'>
 								<Typography
 									variant='heading-2'
 									className='text-marina-600 px-2'>
@@ -125,9 +123,7 @@ const ShuddleWorld = () => {
 				<section id='member stories' className='pt-[120px] flex justify-center'>
 					<div className='container flex justify-center'>
 						<div className='flex flex-col gap-2 items-center'>
-							<div
-								id='section-header'
-								className='inline-block flex flex-col gap-2'>
+							<div id='section-header' className=' flex flex-col gap-2'>
 								<Typography
 									variant='heading-2'
 									className='text-marina-600 px-2'>

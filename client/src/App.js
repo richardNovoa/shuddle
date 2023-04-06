@@ -1,9 +1,9 @@
-import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ShuddleRide from './components/ShuddleRide';
 import ShuddleVisit from './components/ShuddleVisit';
 import ShuddleWorld from './components/ShuddleWorld';
 
-const router = createHashRouter(
+const router = createBrowserRouter(
 	[
 		{
 			path: '/',

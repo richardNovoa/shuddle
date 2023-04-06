@@ -27,7 +27,7 @@ const ShuddleVisit = () => {
 	}, []);
 	return (
 		<div>
-			<Navbar brand='visit'>
+			<Navbar brand='visit' isProd>
 				<NavbarLink>Companies</NavbarLink>
 				<NavbarLink>About us</NavbarLink>
 				<NavbarLink>Careers</NavbarLink>
@@ -175,6 +175,9 @@ const ShuddleVisit = () => {
 							title='Happy Travels with Shuddle!'
 							description={`Join a community of adventurers, dreamers, and explorers at Shuddle, where we believe in living life to the fullest.
 							Let us be a part of your unforgettable travel experience and connect with like-minded individuals who share your passion for adventure.`}
+							hasCta
+							ctaLabel='Join Today'
+							ctaHref='/#'
 						/>
 					</div>
 				</section>

@@ -60,7 +60,7 @@ const ShuddleVisit = () => {
 								<Typography
 									variant='heading-2'
 									className='text-marina-600 px-2'>
-									Explore Planets Faster
+									Experience the Universe
 								</Typography>
 								<div
 									id='divider'
@@ -70,19 +70,20 @@ const ShuddleVisit = () => {
 								<Typography
 									variant='heading-3'
 									className='text-white text-center'>
-									Discover new worlds in the blink of an eye with Shuddlers
-									network of in-planet transports <br />
+									Our packages are designed to provide a unique and
+									unforgettable experience that you won't find anywhere else.{' '}
 									<br />
-									Select a destination for more information and start planning
-									your next planetary surface adventure today.
+									Book your space vacation today and embark on an interstellar
+									journey with Shuddle!
 								</Typography>
 							</div>
 							<div id='carousel' className='flex gap-4 py-4'>
 								<Card
 									size='md'
-									title='Alderan System'
-									description=''
+									title='Intergalactic Cruises'
+									description='Set sail through the stars and explore the beauty of the universe!'
 									imgSrc={CardMedia6}
+									variant='surface'
 								/>
 								<Card
 									size='md'

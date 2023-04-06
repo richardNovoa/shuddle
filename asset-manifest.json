@@ -1,25 +1,37 @@
 {
   "files": {
-    "main.css": "/shuddle/static/css/main.9afffe71.css",
-    "main.js": "/shuddle/static/js/main.f8b83bd8.js",
+    "main.css": "/shuddle/static/css/main.bde81eda.css",
+    "main.js": "/shuddle/static/js/main.16f185ff.js",
     "static/js/787.fc535251.chunk.js": "/shuddle/static/js/787.fc535251.chunk.js",
-    "static/media/hero-world.svg": "/shuddle/static/media/hero-world.c63bdf8153b2f5228e9a57f8f289046d.svg",
-    "static/media/hero-visit.svg": "/shuddle/static/media/hero-visit.4cdba9c0b3f164b98333bbb8bd1d2c63.svg",
-    "static/media/hero-ride.svg": "/shuddle/static/media/hero-ride.80a465261c3d5503d06f05da482b088a.svg",
-    "static/media/Decorative-divider-down.svg": "/shuddle/static/media/Decorative-divider-down.ad439a58474d4256ecd62c3fda139d83.svg",
-    "static/media/Decorative-divider-up.svg": "/shuddle/static/media/Decorative-divider-up.0328f0bd2520a53fe51f01b295e4a8e4.svg",
+    "static/media/hero-visit.png": "/shuddle/static/media/hero-visit.b7a5b8c405c17fbb6f7b.png",
+    "static/media/hero-world.png": "/shuddle/static/media/hero-world.d5cb074b541c5c06a3bb.png",
+    "static/media/hero-ride.png": "/shuddle/static/media/hero-ride.3d8b8558bb14bfde48a2.png",
+    "static/media/CardMedia-3.png": "/shuddle/static/media/CardMedia-3.f8f29989870a8a913ff6.png",
+    "static/media/CardMedia-5.png": "/shuddle/static/media/CardMedia-5.b2280016ebee70557428.png",
+    "static/media/visit-divider.svg": "/shuddle/static/media/visit-divider.9c5f1c38f59535c2e4c5654abb6960f4.svg",
+    "static/media/CardMedia-1.png": "/shuddle/static/media/CardMedia-1.1775b97e0bf060d1e1ed.png",
+    "static/media/CardMedia.png": "/shuddle/static/media/CardMedia.2c732a8deb7847937cbd.png",
+    "static/media/CardMedia-2.png": "/shuddle/static/media/CardMedia-2.ade86d23c429de70aad8.png",
+    "static/media/CardMedia-4.png": "/shuddle/static/media/CardMedia-4.1f570fd29ac9ae25c886.png",
+    "static/media/world-divider-left.svg": "/shuddle/static/media/world-divider-left.bb46d071d8c1ceafbb3015070c2dab9d.svg",
+    "static/media/world-divider-right.svg": "/shuddle/static/media/world-divider-right.3cd14bac83dc6a64af9138653be7b994.svg",
+    "static/media/Card__Image-1.png": "/shuddle/static/media/Card__Image-1.cb65b2a50fe812b27b01.png",
+    "static/media/Card__Image-2.png": "/shuddle/static/media/Card__Image-2.795b3b90f88b316e9938.png",
+    "static/media/Card__Image.png": "/shuddle/static/media/Card__Image.b1b4f8298ed5c947a768.png",
+    "static/media/Card__Image-3.png": "/shuddle/static/media/Card__Image-3.2e2b4d1add1b8a8c2a54.png",
     "static/media/world-1.svg": "/shuddle/static/media/world-1.3b482fb842b3be689dc5cba7f6d71904.svg",
     "static/media/ipts__light.png": "/shuddle/static/media/ipts__light.a5699c7d895784f9922a.png",
     "static/media/shuddle-visit__light.png": "/shuddle/static/media/shuddle-visit__light.d58951bb49c0063df8c0.png",
     "static/media/shuddle-ride__light.png": "/shuddle/static/media/shuddle-ride__light.9dce2d05d773d31ded30.png",
     "static/media/shuddle-world__light.svg": "/shuddle/static/media/shuddle-world__light.5c6693556de80738e375c637e528f7da.svg",
+    "static/media/ride-divider.svg": "/shuddle/static/media/ride-divider.689eb9c5bc97d7d83e037964b72feb02.svg",
     "index.html": "/shuddle/index.html",
-    "main.9afffe71.css.map": "/shuddle/static/css/main.9afffe71.css.map",
-    "main.f8b83bd8.js.map": "/shuddle/static/js/main.f8b83bd8.js.map",
+    "main.bde81eda.css.map": "/shuddle/static/css/main.bde81eda.css.map",
+    "main.16f185ff.js.map": "/shuddle/static/js/main.16f185ff.js.map",
     "787.fc535251.chunk.js.map": "/shuddle/static/js/787.fc535251.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9afffe71.css",
-    "static/js/main.f8b83bd8.js"
+    "static/css/main.bde81eda.css",
+    "static/js/main.16f185ff.js"
   ]
 }

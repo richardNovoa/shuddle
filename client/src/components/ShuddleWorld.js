@@ -38,7 +38,7 @@ const ShuddleWorld = () => {
 			<main className='bg-midnight-1000'>
 				<section id='hero' className='relative flex justify-center'>
 					<img src={heroImg} alt='shuddle world' className='object-cover' />
-					<div class='absolute bottom-8 container'>
+					<div className='absolute bottom-8 container'>
 						<Typography variant='heading-3' className='text-white'>
 							Move around in-planet on our network of transports
 						</Typography>

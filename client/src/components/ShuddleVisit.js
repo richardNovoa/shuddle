@@ -36,7 +36,7 @@ const ShuddleVisit = () => {
 			<main className='bg-marina-1100'>
 				<section id='hero' className='relative flex justify-center'>
 					<img src={heroImg} alt='shuddle visit' className='object-cover' />
-					<div class='absolute bottom-8 container'>
+					<div className='absolute bottom-8 container'>
 						<Typography variant='heading-3' className='text-white'>
 							Move around in-planet on our network of transports
 						</Typography>

@@ -1,4 +1,4 @@
-# shuddle
+# Shuddle
 ## Getting Started
 Once you have your React project ready, let's install the Astro Design System. To do this, simply run the following command in your project directory:
 

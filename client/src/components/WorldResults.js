@@ -3,7 +3,7 @@ import { Navbar, NavbarLink } from 'capstone-ds-rn/dist/components/Navbar';
 import { Card } from 'capstone-ds-rn/dist/components/Card';
 import Typography from 'capstone-ds-rn/dist/components/Typography';
 import React from 'react';
-import { Search } from 'capstone-ds-rn/dist/components/Search';
+import { SearchFields } from 'capstone-ds-rn/dist/components/Search';
 import { Banner } from 'capstone-ds-rn/dist/components/Banner';
 import { SearchResult } from 'capstone-ds-rn/dist/components/SearchResult';
 import {
@@ -12,6 +12,7 @@ import {
 	FilterOption
 } from 'capstone-ds-rn/dist/components/SearchFilter';
 import cardImage from '../assets/media/world/CardMedia-17.png';
+import { Button } from 'capstone-ds-rn/dist/components/Button';
 
 const WorldResults = (props) => {
 	return (
@@ -55,7 +56,10 @@ const WorldResults = (props) => {
 						</div>
 					</div>
 					<div className='col-span-3 flex flex-col gap-4 overflow-visible pb-20 justify-start'>
-						<Search brand='world' />
+						<div className='flex gap-8 overflow-visible'>
+							<SearchFields />
+							<Button>Search</Button>
+						</div>
 						<div className='flex justify-between'>
 							<Typography variant='subtitle-1' className='text-white'>
 								Search Results: 32

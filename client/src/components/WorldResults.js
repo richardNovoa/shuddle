@@ -3,7 +3,6 @@ import { Navbar, NavbarLink } from 'capstone-ds-rn/dist/components/Navbar';
 import { Card } from 'capstone-ds-rn/dist/components/Card';
 import Typography from 'capstone-ds-rn/dist/components/Typography';
 import React from 'react';
-import { SearchFields } from 'capstone-ds-rn/dist/components/Search';
 import { Banner } from 'capstone-ds-rn/dist/components/Banner';
 import { SearchResult } from 'capstone-ds-rn/dist/components/SearchResult';
 import {
@@ -58,29 +57,35 @@ const WorldResults = (props) => {
 					</div>
 					<div className='col-span-3 flex flex-col gap-4 overflow-visible pb-20 justify-start'>
 						<div className='flex gap-8 overflow-visible'>
-							<div className='flex gap-0 rounded-[32px]'>
+							<div className='flex gap-0 rounded-[32px] overflow-hidden w-4/5'>
 								<FormInput
 									placeholder='Earth'
 									iconClass='fas fa-plane-departure'
-									className='w-1/5'
+									className='w-auto overflow-hidden'
+									value='Earth'
 								/>
 								<FormInput
 									placeholder='Anywhere'
 									iconClass='fas fa-plane-arrival'
-									className='w-1/5'
+									className='w-auto overflow-hidden'
+									value='Anywhere'
 								/>
 								<FormInput
 									placeholder='2 Passengers'
 									iconClass='fas fa-walking pt-1'
-									className='w-1/5'
+									className='w-auto overflow-hidden'
+									value='2 Passengers'
 								/>
 								<FormInput
 									placeholder='April 21'
 									iconClass='fas fa-calendar'
-									className='w-1/5'
+									className='w-auto overflow-hidden'
+									value='April 21'
 								/>
 							</div>
-							<Button>Search</Button>
+							<div className='flex justify-end'>
+								<Button>Search</Button>
+							</div>
 						</div>
 						<div className='flex justify-between'>
 							<Typography variant='subtitle-1' className='text-white'>

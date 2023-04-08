@@ -4,13 +4,14 @@ import { Card } from 'capstone-ds-rn/dist/components/Card';
 import Typography from 'capstone-ds-rn/dist/components/Typography';
 import React from 'react';
 import { Search } from 'capstone-ds-rn/dist/components/Search';
-import Banner from './SearchResults/Banner';
-import SearchResult from './SearchResults/SearchResult';
+import { Banner } from 'capstone-ds-rn/dist/components/Banner';
+import { SearchResult } from 'capstone-ds-rn/dist/components/SearchResult';
 import {
 	SearchFilter,
 	FilterCategory,
 	FilterOption
-} from './SearchResults/SearchFilter';
+} from 'capstone-ds-rn/dist/components/SearchFilter';
+import cardImage from '../assets/media/world/CardMedia-17.png';
 
 const WorldResults = (props) => {
 	return (
@@ -21,38 +22,39 @@ const WorldResults = (props) => {
 				<NavbarLink>Careers</NavbarLink>
 				<NavbarLink>Corporate</NavbarLink>
 			</Navbar>
-			<main className='flex justify-center bg-midnight-1000'>
+			<main className='flex justify-center bg-midnight-1000 pt-10'>
 				<div className='container grid grid-cols-5 gap-8'>
 					<div className='col-span-1'>
-						<Card size='md'></Card>
-						<SearchFilter>
-							<FilterCategory title='Popular Filters'>
-								<FilterOption>Airport shuttle included</FilterOption>
-								<FilterOption>Port Miami</FilterOption>
-								<FilterOption>Hotel resort</FilterOption>
-								<FilterOption>Breakfast included</FilterOption>
-							</FilterCategory>
-							<FilterCategory title='Popular Filters'>
-								<FilterOption>Airport shuttle included</FilterOption>
-								<FilterOption>Port Miami</FilterOption>
-								<FilterOption>Hotel resort</FilterOption>
-								<FilterOption>Breakfast included</FilterOption>
-							</FilterCategory>
-							<FilterCategory title='Popular Filters'>
-								<FilterOption>Airport shuttle included</FilterOption>
-								<FilterOption>Port Miami</FilterOption>
-								<FilterOption>Hotel resort</FilterOption>
-								<FilterOption>Breakfast included</FilterOption>
-							</FilterCategory>
-							<FilterCategory title='Popular Filters'>
-								<FilterOption>Airport shuttle included</FilterOption>
-								<FilterOption>Port Miami</FilterOption>
-								<FilterOption>Hotel resort</FilterOption>
-								<FilterOption>Breakfast included</FilterOption>
-							</FilterCategory>
-						</SearchFilter>
+						<Card size='md' imgSrc={cardImage} hasContent={false}></Card>
+						<div className='pt-10'>
+							<SearchFilter>
+								<FilterCategory title='Popular Filters'>
+									<FilterOption>Airport shuttle included</FilterOption>
+									<FilterOption>Free Wifi</FilterOption>
+									<FilterOption>Pet Friendly</FilterOption>
+									<FilterOption>Breakfast included</FilterOption>
+								</FilterCategory>
+								<FilterCategory title='Guest Rating'>
+									<FilterOption>Any</FilterOption>
+									<FilterOption>Wonderful 9+</FilterOption>
+									<FilterOption>Very good 8+t</FilterOption>
+									<FilterOption>Good 7+</FilterOption>
+								</FilterCategory>
+								<FilterCategory title='Payment Type'>
+									<FilterOption>Fully Refundable</FilterOption>
+									<FilterOption>Reserve now, pay later</FilterOption>
+									<FilterOption>Hotel resort</FilterOption>
+								</FilterCategory>
+								<FilterCategory title='Amenities'>
+									<FilterOption>Pool</FilterOption>
+									<FilterOption>Space view</FilterOption>
+									<FilterOption>Sun view</FilterOption>
+									<FilterOption>No view</FilterOption>
+								</FilterCategory>
+							</SearchFilter>
+						</div>
 					</div>
-					<div className='col-span-4 flex flex-col gap-8'>
+					<div className='col-span-3 flex flex-col gap-4 overflow-visible pb-20 justify-start'>
 						<Search brand='world' />
 						<div className='flex justify-between'>
 							<Typography variant='subtitle-1' className='text-white'>
@@ -64,13 +66,52 @@ const WorldResults = (props) => {
 							</Typography>
 						</div>
 						<Banner />
-						<SearchResult type='ride' />
-						<SearchResult />
-						<SearchResult />
-						<SearchResult />
-						<SearchResult />
-						<SearchResult />
-						<SearchResult />
+						<SearchResult
+							title='Arrakis Unguided Hiking Adventure'
+							subtitle='Breakfast Included'
+							status='Possibility of Sandworms'
+							price='3,000'
+							imgSrc='https://plus.unsplash.com/premium_photo-1677038264064-2dedc3e9a9f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80'
+						/>
+						<SearchResult
+							title='Origae-6 EDM Festival'
+							subtitle='Pet Friendly'
+							status='Available'
+							price='13,000'
+							imgSrc='https://www.avpgalaxy.net/wordpress/wp-content/uploads/2014/06/the_derelict_by_tetheredcomic-d4tkbru.jpg'
+						/>
+						<SearchResult
+							title='Space Station Adventure'
+							subtitle='Free Wifi'
+							status='Available'
+							price='8,000'
+							rating='9.0'
+							imgSrc='https://theartsdesk.com/sites/default/files/styles/mast_image_landscape/public/mastimages/2001%20no.%201.jpg?itok=8voP9SgR'
+						/>
+						<SearchResult
+							title='Space Road Trip Package'
+							subtitle=''
+							status=''
+							price='11,000'
+							rating='9.0'
+							imgSrc='https://i.pinimg.com/originals/07/a1/cf/07a1cf0cf0ca2cddadb6554ba54c738f.jpg'
+						/>
+						<SearchResult
+							title='Water Planet Fishing Expedition'
+							subtitle='Excellent Amenities'
+							status=''
+							price='19,000'
+							rating='7.0'
+							imgSrc='https://compote.slate.com/images/638a4957-d336-4c41-803b-d715a98b0e26.jpg'
+						/>
+						<SearchResult
+							title='Watch the Fireworks from Alderaan'
+							subtitle='Great Seats'
+							status=''
+							price='14,000'
+							rating='8.0'
+							imgSrc='https://wallpaperset.com/w/full/6/5/d/51787.jpg'
+						/>
 					</div>
 				</div>
 			</main>

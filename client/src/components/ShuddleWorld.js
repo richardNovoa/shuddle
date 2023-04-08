@@ -49,7 +49,7 @@ const ShuddleWorld = () => {
 								on your own terms
 							</Typography>
 						</div>
-						<Search brand='world' />
+						<Search brand='world' searchHref='#/worldresults' />
 					</div>
 				</section>
 				<section id='member stories' className='pt-[120px] flex justify-center'>

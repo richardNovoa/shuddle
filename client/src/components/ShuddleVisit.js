@@ -46,7 +46,7 @@ const ShuddleVisit = () => {
 								<span className='text-marina-600'> shuddles.</span> More places.
 							</Typography>
 						</div>
-						<Search brand='visit' />
+						<Search brand='visit' searchHref='#/visitresults' />
 					</div>
 				</section>
 				<section

@@ -2,7 +2,7 @@ import { Footer } from 'capstone-ds-rn/dist/components/Footer';
 import { Navbar, NavbarLink } from 'capstone-ds-rn/dist/components/Navbar';
 import { Card } from 'capstone-ds-rn/dist/components/Card';
 import Typography from 'capstone-ds-rn/dist/components/Typography';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Banner } from 'capstone-ds-rn/dist/components/Banner';
 import { SearchResult } from 'capstone-ds-rn/dist/components/SearchResult';
 import {
@@ -15,6 +15,9 @@ import { Button } from 'capstone-ds-rn/dist/components/Button';
 import { FormInput } from 'capstone-ds-rn/dist/components/FormInput';
 
 const WorldResults = (props) => {
+	useEffect(() => {
+		document.title = 'Shuddle World: Search Results';
+	}, []);
 	return (
 		<div>
 			<Navbar brand='world' isProd>
@@ -26,31 +29,65 @@ const WorldResults = (props) => {
 			<main className='flex justify-center bg-midnight-1000 pt-10'>
 				<div className='container grid grid-cols-5 gap-8'>
 					<div className='col-span-1'>
-						<Card size='md' imgSrc={cardImage} hasContent={false}></Card>
-						<div className='pt-10'>
+						<Card
+							size='md'
+							imgSrc={cardImage}
+							hasContent={false}
+							imgClass='w-full h-auto'></Card>
+						<div className='pt-10 pl-4 pr-0 pb-4 bg-midnight-1100 rounded-[16px] mt-8'>
 							<SearchFilter>
 								<FilterCategory title='Popular Filters'>
-									<FilterOption>Airport shuttle included</FilterOption>
-									<FilterOption>Free Wifi</FilterOption>
-									<FilterOption>Pet Friendly</FilterOption>
-									<FilterOption>Breakfast included</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Airport shuttle included
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Free Wifi
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Pet Friendly
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Breakfast included
+									</FilterOption>
 								</FilterCategory>
 								<FilterCategory title='Guest Rating'>
-									<FilterOption>Any</FilterOption>
-									<FilterOption>Wonderful 9+</FilterOption>
-									<FilterOption>Very good 8+t</FilterOption>
-									<FilterOption>Good 7+</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Any
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Wonderful 9+
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Very good 8+t
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Good 7+
+									</FilterOption>
 								</FilterCategory>
 								<FilterCategory title='Payment Type'>
-									<FilterOption>Fully Refundable</FilterOption>
-									<FilterOption>Reserve now, pay later</FilterOption>
-									<FilterOption>Hotel resort</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Fully Refundable
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Reserve now, pay later
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Hotel resort
+									</FilterOption>
 								</FilterCategory>
 								<FilterCategory title='Amenities'>
-									<FilterOption>Pool</FilterOption>
-									<FilterOption>Space view</FilterOption>
-									<FilterOption>Sun view</FilterOption>
-									<FilterOption>No view</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Pool
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Space view
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										Sun view
+									</FilterOption>
+									<FilterOption filterOptionClassName='text-apricot-500'>
+										No view
+									</FilterOption>
 								</FilterCategory>
 							</SearchFilter>
 						</div>

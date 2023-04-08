@@ -13,6 +13,7 @@ import {
 } from 'capstone-ds-rn/dist/components/SearchFilter';
 import cardImage from '../assets/media/world/CardMedia-17.png';
 import { Button } from 'capstone-ds-rn/dist/components/Button';
+import { FormInput } from 'capstone-ds-rn/dist/components/FormInput';
 
 const WorldResults = (props) => {
 	return (
@@ -57,7 +58,21 @@ const WorldResults = (props) => {
 					</div>
 					<div className='col-span-3 flex flex-col gap-4 overflow-visible pb-20 justify-start'>
 						<div className='flex gap-8 overflow-visible'>
-							<SearchFields />
+							<div className='flex gap-0 rounded-[32px]'>
+								<FormInput
+									placeholder='Earth'
+									iconClass='fas fa-plane-departure'
+								/>
+								<FormInput
+									placeholder='Anywhere'
+									iconClass='fas fa-plane-arrival'
+								/>
+								<FormInput
+									placeholder='2 Passengers'
+									iconClass='fas fa-walking pt-1'
+								/>
+								<FormInput placeholder='April 21' iconClass='fas fa-calendar' />
+							</div>
 							<Button>Search</Button>
 						</div>
 						<div className='flex justify-between'>

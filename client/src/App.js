@@ -11,7 +11,7 @@ const router = createHashRouter(
 			element: <ShuddleWorld />
 		},
 		{
-			path: '/world/results',
+			path: '/worldresults',
 			element: <WorldResults />
 		},
 		{

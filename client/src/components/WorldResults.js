@@ -62,16 +62,23 @@ const WorldResults = (props) => {
 								<FormInput
 									placeholder='Earth'
 									iconClass='fas fa-plane-departure'
+									className='w-1/5'
 								/>
 								<FormInput
 									placeholder='Anywhere'
 									iconClass='fas fa-plane-arrival'
+									className='w-1/5'
 								/>
 								<FormInput
 									placeholder='2 Passengers'
 									iconClass='fas fa-walking pt-1'
+									className='w-1/5'
 								/>
-								<FormInput placeholder='April 21' iconClass='fas fa-calendar' />
+								<FormInput
+									placeholder='April 21'
+									iconClass='fas fa-calendar'
+									className='w-1/5'
+								/>
 							</div>
 							<Button>Search</Button>
 						</div>

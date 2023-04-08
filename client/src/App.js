@@ -3,6 +3,7 @@ import ShuddleRide from './components/ShuddleRide';
 import ShuddleVisit from './components/ShuddleVisit';
 import ShuddleWorld from './components/ShuddleWorld';
 import WorldResults from './components/WorldResults';
+import VisitResults from './components/VisitResults';
 
 const router = createHashRouter(
 	[
@@ -13,6 +14,10 @@ const router = createHashRouter(
 		{
 			path: '/worldresults',
 			element: <WorldResults />
+		},
+		{
+			path: '/visitresults',
+			element: <VisitResults />
 		},
 		{
 			path: '/visit',

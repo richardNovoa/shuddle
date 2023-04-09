@@ -1,11 +1,12 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import ShuddleRide from './components/ShuddleRide';
 import ShuddleVisit from './components/ShuddleVisit';
 import ShuddleWorld from './components/ShuddleWorld';
 import WorldResults from './components/WorldResults';
 import VisitResults from './components/VisitResults';
+import RideResults from './components/RideResults';
 
-const router = createBrowserRouter(
+const router = createHashRouter(
 	[
 		{
 			path: '/',
@@ -14,6 +15,10 @@ const router = createBrowserRouter(
 		{
 			path: '/worldresults',
 			element: <WorldResults />
+		},
+		{
+			path: '/rideresults',
+			element: <RideResults />
 		},
 		{
 			path: '/visitresults',

@@ -34,7 +34,7 @@ const VisitResults = (props) => {
 							imgSrc={cardImage}
 							hasContent={false}
 							imgClass='w-full h-auto'></Card>
-						<div className='pt-pt-10 pl-4 pr-0 pb-4 bg-marina-1100 rounded-[16px] mt-8'>
+						<div className='pt-10 pl-4 pr-0 pb-4 bg-marina-1100 rounded-[16px] mt-8'>
 							<SearchFilter>
 								<FilterCategory title='Popular Filters'>
 									<FilterOption filterOptionClassName='text-apricot-500'>

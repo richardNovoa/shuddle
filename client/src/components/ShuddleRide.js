@@ -39,7 +39,7 @@ const ShuddleRide = () => {
 								<span className='text-marina-600'> mobility</span>
 							</Typography>
 						</div>
-						<Search brand='ride' />
+						<Search brand='ride' searchHref='#/rideresults' />
 					</div>
 				</section>
 				<section

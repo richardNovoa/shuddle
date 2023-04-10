@@ -16,6 +16,9 @@ import { FormInput } from 'capstone-ds-rn/dist/components/FormInput';
 import Map from './Map';
 
 const WorldResults = (props) => {
+	useEffect(() => {
+		document.title = 'Shuddle Ride: Search Results';
+	}, []);
 	return (
 		<div>
 			<Navbar brand='ride' isProd>

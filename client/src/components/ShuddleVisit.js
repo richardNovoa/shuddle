@@ -38,7 +38,7 @@ const ShuddleVisit = () => {
 					<img src={heroImg} alt='shuddle visit' className='object-cover' />
 					<div className='absolute bottom-8 container'>
 						<Typography variant='heading-3' className='text-white'>
-							Move around in-planet on our network of transports
+							Our interstellar travel services are unparalleled. Truly.
 						</Typography>
 						<div className='flex pb-4'>
 							<Typography variant='heading-1' className='text-white text-left'>
@@ -122,7 +122,6 @@ const ShuddleVisit = () => {
 						</div>
 					</div>
 				</section>
-				<Divider brand='visit' direction='left' />
 				<section id='member stories' className='pt-[120px] flex justify-center'>
 					<div className='container flex justify-center'>
 						<div className='flex flex-col gap-2 items-center'>
@@ -169,6 +168,7 @@ const ShuddleVisit = () => {
 						</div>
 					</div>
 				</section>
+				<Divider brand='visit' direction='left' />
 				<section id='happy-travels' className='flex justify-center pt-32'>
 					<div className='container overflow-visible py-40'>
 						<Card

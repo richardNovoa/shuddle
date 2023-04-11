@@ -42,6 +42,25 @@ const ShuddleRide = () => {
 						<Search brand='ride' searchHref='#/rideresults' />
 					</div>
 				</section>
+				<section className='relative text-center py-20 bg-calloutRide bg-cover'>
+					<div id='section-header' className='flex flex-col gap-2'>
+						<Typography variant='heading-2' className='text-marina-600 px-2'>
+							Explore Planets Faster
+						</Typography>
+						<div
+							id='divider'
+							className='h-1 bg-amethyst-400 rounded-full w-1/3 self-center'></div>
+					</div>
+					<div className='pt-2'>
+						<Typography variant='heading-3' className='text-white text-center'>
+							Why travel hundred of parsecs across the galaxy only to have to
+							turn back!
+							<br /> Shuddle Ride provides you with the fastest network of
+							surface transports <br />
+							Spend more time enjoying and less time travelling
+						</Typography>
+					</div>
+				</section>
 				<section
 					id='discover-planets'
 					className='pt-[120px] flex justify-center'>
@@ -51,7 +70,7 @@ const ShuddleRide = () => {
 								<Typography
 									variant='heading-2'
 									className='text-marina-600 px-2'>
-									Explore Planets Faster
+									More Rides in More Places
 								</Typography>
 								<div
 									id='divider'
@@ -61,14 +80,13 @@ const ShuddleRide = () => {
 								<Typography
 									variant='heading-3'
 									className='text-white text-center'>
-									Discover new worlds in the blink of an eye with Shuddlers
-									network of in-planet transports <br />
+									Check out planets we have just added to the network <br />
 									<br />
-									Select a destination for more information and start planning
-									your next planetary surface adventure today.
+									and start planning your next planetary surface adventure
+									today.
 								</Typography>
 							</div>
-							<div id='carousel' className='flex gap-4 py-4'>
+							<div id='carousel' className='flex gap-4 py-10'>
 								<Card
 									size='md'
 									title='Alderan System'
@@ -109,12 +127,15 @@ const ShuddleRide = () => {
 						</div>
 					</div>
 				</section>
-				<Divider brand='ride' />
+				<div className='-mt-24'>
+					<Divider brand='ride' />
+				</div>
+
 				<section id='happy-travels' className='flex justify-center pt-32'>
-					<div className='container overflow-visible py-40'>
+					<div className='container overflow-visible pt-40'>
 						<Card
 							imgSrc={cardImg7}
-							imgClass='object-cover overflow-visible'
+							imgClass='object-contain overflow-visible -m-40'
 							title='Happy Travels with Shuddle!'
 							description={`Join a community of adventurers, dreamers, and explorers at Shuddle, where we believe in living life to the fullest.
 							Let us be a part of your unforgettable travel experience and connect with like-minded individuals who share your passion for adventure.`}

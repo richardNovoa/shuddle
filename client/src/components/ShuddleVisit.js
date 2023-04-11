@@ -50,6 +50,54 @@ const ShuddleVisit = () => {
 					</div>
 				</section>
 				<section
+					id='member stories'
+					className='py-16 flex justify-center bg-calloutVisit bg-cover'>
+					<div className='container flex justify-center'>
+						<div className='flex flex-col gap-2 items-center'>
+							<div id='section-header' className=' flex flex-col gap-2'>
+								<Typography
+									variant='heading-2'
+									className='text-marina-600 px-2'>
+									Insta-Inspiration
+								</Typography>
+								<div
+									id='divider'
+									className='h-1 w-full bg-amethyst-400 rounded-full'></div>
+							</div>
+							<div id='carousel' className='flex gap-6 py-4'>
+								<Card
+									size='sm'
+									variant='surface'
+									title='@xelurian'
+									description='Thanks for my space style! #shuddlestyle'
+									imgSrc={SocialImg1}
+								/>
+								<Card
+									size='sm'
+									variant='surface'
+									title='@Zorblax'
+									description='Thanks for the out-of-this-world advice! #shuddlevacations'
+									imgSrc={SocialImg2}
+								/>
+								<Card
+									size='sm'
+									variant='surface'
+									title='@Lunara'
+									description=' The stars were lit AF and the space-grub was outta this world! 🚀🌟 #SpaceVibes'
+									imgSrc={SocialImg3}
+								/>
+								<Card
+									size='sm'
+									variant='surface'
+									title='@Aurorion'
+									description='Thanks for showing me the beauty of the cosmos! #shuddleadventure'
+									imgSrc={SocialImg4}
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section
 					id='discover-planets'
 					className='pt-[120px] flex justify-center'>
 					<div className='container flex justify-center'>
@@ -75,7 +123,7 @@ const ShuddleVisit = () => {
 									journey with Shuddle!
 								</Typography>
 							</div>
-							<div id='carousel' className='flex gap-4 py-4 flex-wrap'>
+							<div id='carousel' className='flex gap-4 py-10 flex-wrap'>
 								<Card
 									size='md'
 									title='Intergalactic Cruises'
@@ -122,58 +170,15 @@ const ShuddleVisit = () => {
 						</div>
 					</div>
 				</section>
-				<section id='member stories' className='pt-[120px] flex justify-center'>
-					<div className='container flex justify-center'>
-						<div className='flex flex-col gap-2 items-center'>
-							<div id='section-header' className=' flex flex-col gap-2'>
-								<Typography
-									variant='heading-2'
-									className='text-marina-600 px-2'>
-									Insta-Inspiration
-								</Typography>
-								<div
-									id='divider'
-									className='h-1 w-full bg-amethyst-400 rounded-full'></div>
-							</div>
-							<div id='carousel' className='flex gap-6 py-4'>
-								<Card
-									size='sm'
-									variant='surface'
-									title='@xelurian'
-									description='Thanks for my space style! #shuddlestyle'
-									imgSrc={SocialImg1}
-								/>
-								<Card
-									size='sm'
-									variant='surface'
-									title='@Zorblax'
-									description='Thanks for the out-of-this-world advice! #shuddlevacations'
-									imgSrc={SocialImg2}
-								/>
-								<Card
-									size='sm'
-									variant='surface'
-									title='@Lunara'
-									description=' The stars were lit AF and the space-grub was outta this world! 🚀🌟 #SpaceVibes'
-									imgSrc={SocialImg3}
-								/>
-								<Card
-									size='sm'
-									variant='surface'
-									title='@Aurorion'
-									description='Thanks for showing me the beauty of the cosmos! #shuddleadventure'
-									imgSrc={SocialImg4}
-								/>
-							</div>
-						</div>
-					</div>
-				</section>
-				<Divider brand='visit' direction='left' />
+				<div className='-mt-24'>
+					<Divider brand='visit' direction='left' />
+				</div>
+
 				<section id='happy-travels' className='flex justify-center pt-32'>
-					<div className='container overflow-visible py-40'>
+					<div className='container overflow-visible pt-40'>
 						<Card
 							imgSrc={cardImg7}
-							imgClass='object-cover overflow-visible'
+							imgClass='object-contain overflow-visible -m-40'
 							title='Happy Travels with Shuddle!'
 							description={`Join a community of adventurers, dreamers, and explorers at Shuddle, where we believe in living life to the fullest.
 							Let us be a part of your unforgettable travel experience and connect with like-minded individuals who share your passion for adventure.`}

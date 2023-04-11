@@ -52,6 +52,95 @@ const ShuddleWorld = () => {
 						<Search brand='world' searchHref='#/worldresults' />
 					</div>
 				</section>
+				<section className='relative text-center py-20 bg-calloutWorld bg-cover'>
+					<div id='section-header' className='flex flex-col gap-2'>
+						<Typography variant='heading-2' className='text-marina-600 px-2'>
+							Earn Parsecs and Travel Further!
+						</Typography>
+						<div
+							id='divider'
+							className='h-1 bg-amethyst-400 rounded-full w-1/3 self-center'></div>
+					</div>
+					<div className='pt-2'>
+						<Typography variant='heading-3' className='text-white text-center'>
+							As a Shuddle World Member, you'll earn Parsecs every time you book
+							a trip with us.
+							<br /> The more you travel, the more Parsecs you'll accumulate,
+							which can be redeemed for exciting rewards <br />
+							like free upgrades, exclusive experiences, and even
+							<br />
+							interplanetary travel discounts. <br />
+						</Typography>
+					</div>
+				</section>
+				<section id='parsecs' className='pt-[120px] flex justify-center'>
+					<div className='container flex justify-center'>
+						<div className='flex flex-col gap-2 items-center'>
+							<div id='section-header' className='flex flex-col gap-2'>
+								<Typography
+									variant='heading-2'
+									className='text-marina-600 px-2'>
+									Popular Destinations
+								</Typography>
+								<div
+									id='divider'
+									className='h-1 w-full bg-amethyst-400 rounded-full'></div>
+							</div>
+							<div id='carousel' className='flex gap-4 py-10 z-10 flex-wrap'>
+								<Card
+									size='md'
+									title='Intergalactic Mining Trip'
+									description='Discover precious resources on a thrilling mining expedition!'
+									imgSrc={CardMedia16}
+									variant='surface'
+								/>
+								<Card
+									size='md'
+									title='Alien Petting Encounter'
+									description='Get up close and personal with extraterrestrial life!'
+									imgSrc={CardMedia11}
+									variant='surface'
+								/>
+
+								<Card
+									size='md'
+									title='Mars Exploration Tour'
+									description='Embark on a journey to explore the red planet!'
+									imgSrc={CardMedia12}
+									variant='surface'
+								/>
+
+								<Card
+									size='md'
+									title='Rocket Racing'
+									description='Experience the thrill of high-speed rocket racing!'
+									imgSrc={CardMedia13}
+									variant='surface'
+								/>
+
+								<Card
+									size='md'
+									title='Free Floating'
+									description='Experience weightlessness in space on our free-floating tour!'
+									imgSrc={CardMedia14}
+									variant='surface'
+								/>
+
+								<Card
+									size='md'
+									title='Intergalactic Music Festivals'
+									description='Join the biggest parties across the universe!'
+									imgSrc={CardMedia15}
+									variant='surface'
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div className='-mt-40 -z-10'>
+					<Divider brand='world' direction='left' />
+				</div>
+
 				<section id='member stories' className='pt-[120px] flex justify-center'>
 					<div className='container flex justify-center'>
 						<div className='flex flex-col gap-2 items-center'>
@@ -78,7 +167,7 @@ const ShuddleWorld = () => {
 									and to discover the infinite possibilities that lie ahead.
 								</Typography>
 							</div>
-							<div id='carousel' className='flex gap-4 py-4'>
+							<div id='carousel' className='flex gap-4 py-20'>
 								<Card
 									size='md'
 									title='Alderan System'
@@ -119,85 +208,15 @@ const ShuddleWorld = () => {
 						</div>
 					</div>
 				</section>
-				<Divider brand='world' direction='left' />
-				<section id='member stories' className='pt-[120px] flex justify-center'>
-					<div className='container flex justify-center'>
-						<div className='flex flex-col gap-2 items-center'>
-							<div id='section-header' className=' flex flex-col gap-2'>
-								<Typography
-									variant='heading-2'
-									className='text-marina-600 px-2'>
-									Earn Parsecs and Travel Further!
-								</Typography>
-								<div
-									id='divider'
-									className='h-1 w-full bg-amethyst-400 rounded-full'></div>
-							</div>
-							<div className='pt-2'>
-								<Typography
-									variant='heading-3'
-									className='text-white text-center'>
-									As a Shuddle World Member, you'll earn Parsecs every time you
-									book a trip with us. The more you travel, the more Parsecs
-									you'll accumulate, which can be redeemed for exciting rewards
-									like free upgrades, exclusive experiences, and even
-									<br />
-									interplanetary travel discounts. <br />
-									<br />
-									Check out some of the most popular destinations!
-								</Typography>
-							</div>
-							<div id='carousel' className='flex gap-4 py-4'>
-								<Card
-									size='md'
-									title='Intergalactic Mining Trip'
-									description='Discover precious resources on a thrilling mining expedition!'
-									imgSrc={CardMedia16}
-								/>
-								<Card
-									size='md'
-									title='Alien Petting Encounter'
-									description='Get up close and personal with extraterrestrial life!'
-									imgSrc={CardMedia11}
-								/>
+				<div className='-mt-16'>
+					<Divider brand='world' direction='right' />
+				</div>
 
-								<Card
-									size='md'
-									title='Mars Exploration Tour'
-									description='mbark on a journey to explore the red planet!'
-									imgSrc={CardMedia12}
-								/>
-
-								<Card
-									size='md'
-									title='Rocket Racing'
-									description='Experience the thrill of high-speed rocket racing!'
-									imgSrc={CardMedia13}
-								/>
-
-								<Card
-									size='md'
-									title='Free Floating'
-									description='Experience weightlessness in space on our free-floating tour!'
-									imgSrc={CardMedia14}
-								/>
-
-								<Card
-									size='md'
-									title='Intergalactic Music Festivals'
-									description='Join the biggest parties across the universe!'
-									imgSrc={CardMedia15}
-								/>
-							</div>
-						</div>
-					</div>
-				</section>
-				<Divider brand='world' direction='right' />
 				<section id='happy-travels' className='flex justify-center pt-32'>
-					<div className='container overflow-visible py-40'>
+					<div className='container overflow-visible'>
 						<Card
 							imgSrc={cardImg7}
-							imgClass='object-cover overflow-visible'
+							imgClass='object-contain overflow-visible -m-40'
 							title='Happy Travels with Shuddle!'
 							description={`Join a community of adventurers, dreamers, and explorers at Shuddle, where we believe in living life to the fullest.
 							Let us be a part of your unforgettable travel experience and connect with like-minded individuals who share your passion for adventure.`}

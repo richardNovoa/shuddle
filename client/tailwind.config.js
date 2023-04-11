@@ -8,6 +8,12 @@ module.exports = {
 	colors: {},
 	theme: {
 		extend: {
+			backgroundImage: {
+				calloutWorld: "url('/src/assets/media/world/bg-orbit.png')",
+				CardSurface: "url('/src/assets/media/world/cardImage.svg')",
+				calloutVisit: "url('/src/assets/media/visit/bg-visit.png')",
+				calloutRide: "url('/src/assets/media/ride/bg-ride.png')"
+			},
 			colors: {
 				midnight: {
 					100: '#E9F3FE',

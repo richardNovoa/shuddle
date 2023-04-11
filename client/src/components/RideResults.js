@@ -22,10 +22,9 @@ const WorldResults = (props) => {
 	return (
 		<div>
 			<Navbar brand='ride' isProd>
-				<NavbarLink>Companies</NavbarLink>
-				<NavbarLink>About us</NavbarLink>
-				<NavbarLink>Careers</NavbarLink>
-				<NavbarLink>Corporate</NavbarLink>
+				<NavbarLink href='#'>Schedules</NavbarLink>
+				<NavbarLink href='#'>Maps</NavbarLink>
+				<NavbarLink href='#'>Fares & Tolls</NavbarLink>
 			</Navbar>
 			<main className='bg-apricot-1100 flex flex-col items-center'>
 				<div className='container flex justify-center pt-20 gap-8'>

@@ -27,7 +27,7 @@ const WorldResults = (props) => {
 				<NavbarLink href='#'>Fares & Tolls</NavbarLink>
 			</Navbar>
 			<main className='bg-apricot-1100 flex flex-col items-center'>
-				<div className='container flex justify-center pt-20 gap-8'>
+				<div className='container flex justify-center py-4 mt-8 gap-8 rounded-full bg-apricot-1200'>
 					<div className='flex gap-0 rounded-[32px] overflow-hidden w-3/5'>
 						<FormInput
 							placeholder='Earth'
@@ -58,7 +58,7 @@ const WorldResults = (props) => {
 						<Button>Search</Button>
 					</div>
 				</div>
-				<div className='grid grid-cols-5 gap-8 py-16' id='map'>
+				<div className='grid grid-cols-5 gap-8 pb-16 pt-8' id='map'>
 					<div className='col-span-2 flex flex-col gap-4 h-[692px] overflow-y-scroll'>
 						<div className='flex justify-between'>
 							<Typography variant='label' className='text-white'>
@@ -81,43 +81,43 @@ const WorldResults = (props) => {
 						/>
 						<SearchResult
 							type='ride'
-							title='M42'
-							time='12'
-							distance='120'
+							title='M50'
+							time='15'
+							distance='140'
 							subtitle='Fastest Route'
-							status='Possibility of Sandworms'
+							status='Possibility of Pirates'
+						/>
+						<SearchResult
+							type='ride'
+							title='M422'
+							time='121'
+							distance='1200'
+							subtitle='Least Transfers'
+							status='Possibility of Raiders'
+						/>
+						<SearchResult
+							type='ride'
+							title='M4222'
+							time='9'
+							distance='99'
+							subtitle='Fastest Route'
+							status='Possibility of getting lost'
+						/>
+						<SearchResult
+							type='ride'
+							title='M109'
+							time='24'
+							distance='10'
+							subtitle='Safest Route'
+							status=''
 						/>
 						<SearchResult
 							type='ride'
 							title='M42'
-							time='12'
-							distance='120'
-							subtitle='Fastest Route'
-							status='Possibility of Sandworms'
-						/>
-						<SearchResult
-							type='ride'
-							title='M42'
-							time='12'
-							distance='120'
-							subtitle='Fastest Route'
-							status='Possibility of Sandworms'
-						/>
-						<SearchResult
-							type='ride'
-							title='M42'
-							time='12'
-							distance='120'
-							subtitle='Fastest Route'
-							status='Possibility of Sandworms'
-						/>
-						<SearchResult
-							type='ride'
-							title='M42'
-							time='12'
-							distance='120'
-							subtitle='Fastest Route'
-							status='Possibility of Sandworms'
+							time='5'
+							distance='12'
+							subtitle='Slowest Route'
+							status=''
 						/>
 					</div>
 					<div className='col-span-3 relative'>

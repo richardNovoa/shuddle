@@ -212,11 +212,11 @@ const ShuddleWorld = () => {
 					<Divider brand='world' direction='right' />
 				</div>
 
-				<section id='happy-travels' className='flex justify-center pt-32'>
+				<section id='happy-travels' className='flex justify-center pt-40'>
 					<div className='container overflow-visible'>
 						<Card
 							imgSrc={cardImg7}
-							imgClass='object-contain overflow-visible -m-40'
+							imgClass='object-contain overflow-visible -mt-30'
 							title='Happy Travels with Shuddle!'
 							description={`Join a community of adventurers, dreamers, and explorers at Shuddle, where we believe in living life to the fullest.
 							Let us be a part of your unforgettable travel experience and connect with like-minded individuals who share your passion for adventure.`}

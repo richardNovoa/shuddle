@@ -83,14 +83,14 @@ const ShuddleVisit = () => {
 									size='sm'
 									variant='surface'
 									title='@Lunara'
-									description=' The stars were lit AF and the space-grub was outta this world! 🚀🌟 #SpaceVibes'
+									description=' The stars were lit AF and the space-grub was outta this world! 🚀🌟'
 									imgSrc={SocialImg3}
 								/>
 								<Card
 									size='sm'
 									variant='surface'
 									title='@Aurorion'
-									description='Thanks for showing me the beauty of the cosmos! #shuddleadventure'
+									description='Thanks for showing me the beauty of the cosmos!'
 									imgSrc={SocialImg4}
 								/>
 							</div>

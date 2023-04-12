@@ -40,7 +40,7 @@ const ShuddleWorld = () => {
 					<img src={heroImg} alt='shuddle world' className='object-cover' />
 					<div className='absolute bottom-8 container'>
 						<Typography variant='heading-3' className='text-white'>
-							Move around in-planet on our network of transports
+							Get exclusive deals as a member of shuddle world
 						</Typography>
 						<div className='flex pb-4'>
 							<Typography variant='heading-1' className='text-white text-left'>
@@ -170,38 +170,38 @@ const ShuddleWorld = () => {
 							<div id='carousel' className='flex gap-4 py-20'>
 								<Card
 									size='md'
-									title='Alderan System'
-									description=''
+									title='Alex Smith'
+									description='Joining shuddle world has been amazing!'
 									imgSrc={CardMedia6}
 								/>
 								<Card
 									size='md'
-									title='Romulan Empire'
-									description=''
+									title='Emma Johnson'
+									description='My best investment decision ever!'
 									imgSrc={CardMedia1}
 								/>
 								<Card
 									size='md'
-									title='Krypton System'
-									description=''
+									title='Olivia Davis'
+									description='Unmatched community and support!'
 									imgSrc={CardMedia2}
 								/>
 								<Card
 									size='md'
-									title='Arrakis System'
-									description=''
+									title='Maxwell Brown'
+									description='A game changer for my business!'
 									imgSrc={CardMedia3}
 								/>
 								<Card
 									size='md'
-									title='Omicron Persei 8'
-									description=''
+									title='Wiliam Lee'
+									description='My go-to resource for growth!'
 									imgSrc={CardMedia4}
 								/>
 								<Card
 									size='md'
-									title='Terran System'
-									description=''
+									title='Sophia Martinez'
+									description='A valuable asset for networking!'
 									imgSrc={CardMedia5}
 								/>
 							</div>

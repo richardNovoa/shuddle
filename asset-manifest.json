@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shuddle/static/css/main.d205c2f4.css",
-    "main.js": "/shuddle/static/js/main.486c25fd.js",
+    "main.js": "/shuddle/static/js/main.263dc261.js",
     "static/js/787.1adb9f5e.chunk.js": "/shuddle/static/js/787.1adb9f5e.chunk.js",
     "static/media/hero-visit.png": "/shuddle/static/media/hero-visit.b7a5b8c405c17fbb6f7b.png",
     "static/media/hero-world.png": "/shuddle/static/media/hero-world.d5cb074b541c5c06a3bb.png",
@@ -20,17 +20,17 @@
     "static/media/CardMedia-17.png": "/shuddle/static/media/CardMedia-17.a995c8ac6698fa6a40d3.png",
     "static/media/world-divider-left.svg": "/shuddle/static/media/world-divider-left.bb46d071d8c1ceafbb3015070c2dab9d.svg",
     "static/media/world-divider-right.svg": "/shuddle/static/media/world-divider-right.3cd14bac83dc6a64af9138653be7b994.svg",
-    "static/media/CardMedia-15.png": "/shuddle/static/media/CardMedia-15.3ea9ad52884f09c9c420.png",
-    "static/media/CardMedia-11.png": "/shuddle/static/media/CardMedia-11.7c5e145a7bc5ccb611a6.png",
+    "static/media/CardMedia-15.png": "/shuddle/static/media/CardMedia-15.4c38f4093c0ad989b067.png",
     "static/media/Card__Image-1.png": "/shuddle/static/media/Card__Image-1.cb65b2a50fe812b27b01.png",
-    "static/media/CardMedia-12.png": "/shuddle/static/media/CardMedia-12.29b6ad0b27c9a2857d2e.png",
-    "static/media/CardMedia-16.png": "/shuddle/static/media/CardMedia-16.ddb23bd0376274c647f6.png",
+    "static/media/CardMedia-11.png": "/shuddle/static/media/CardMedia-11.33ce20652359001b2b6b.png",
+    "static/media/CardMedia-12.png": "/shuddle/static/media/CardMedia-12.3801c1cc06e1f0eb3f31.png",
+    "static/media/CardMedia-16.png": "/shuddle/static/media/CardMedia-16.d8dc884bea7c1f95ef55.png",
     "static/media/Card__Image-2.png": "/shuddle/static/media/Card__Image-2.795b3b90f88b316e9938.png",
-    "static/media/CardMedia-13.png": "/shuddle/static/media/CardMedia-13.ecaf0702a1cb9a2aa06d.png",
+    "static/media/CardMedia-13.png": "/shuddle/static/media/CardMedia-13.a83ee47b0a0028893bcb.png",
     "static/media/Card__Image.png": "/shuddle/static/media/Card__Image.b1b4f8298ed5c947a768.png",
     "static/media/Card__Image-3.png": "/shuddle/static/media/Card__Image-3.fc726e133eef6dbcf8d7.png",
     "static/media/world-1.svg": "/shuddle/static/media/world-1.3b482fb842b3be689dc5cba7f6d71904.svg",
-    "static/media/CardMedia-14.png": "/shuddle/static/media/CardMedia-14.ffc046352699a8ec76a4.png",
+    "static/media/CardMedia-14.png": "/shuddle/static/media/CardMedia-14.fa6f5847fbee29445275.png",
     "static/media/ipts__light.png": "/shuddle/static/media/ipts__light.a5699c7d895784f9922a.png",
     "static/media/shuddle-visit__light.png": "/shuddle/static/media/shuddle-visit__light.d58951bb49c0063df8c0.png",
     "static/media/shuddle-ride__light.png": "/shuddle/static/media/shuddle-ride__light.9dce2d05d773d31ded30.png",
@@ -38,11 +38,11 @@
     "static/media/ride-divider.svg": "/shuddle/static/media/ride-divider.689eb9c5bc97d7d83e037964b72feb02.svg",
     "index.html": "/shuddle/index.html",
     "main.d205c2f4.css.map": "/shuddle/static/css/main.d205c2f4.css.map",
-    "main.486c25fd.js.map": "/shuddle/static/js/main.486c25fd.js.map",
+    "main.263dc261.js.map": "/shuddle/static/js/main.263dc261.js.map",
     "787.1adb9f5e.chunk.js.map": "/shuddle/static/js/787.1adb9f5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d205c2f4.css",
-    "static/js/main.486c25fd.js"
+    "static/js/main.263dc261.js"
   ]
 }
